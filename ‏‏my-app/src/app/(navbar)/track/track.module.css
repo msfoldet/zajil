@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 845px;
+}
+
+.main .back{
+    width: 100%;
+    height: 92vh;
+    background: linear-gradient(to top,#0075ed,transparent);
+    position: absolute;
+    top: 173px;
+    
+}
+
+.main .continer{
+    position: absolute;
+    top: 140px;
+    height: 70vh;
+    width: 95%;
+    background-color: white;
+    box-shadow: 1px 10px 13px black;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    
+}
+.main .continer form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.main .continer form input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.main .continer form input:focus{
+    outline: none;
+}
+
+.main .continer form a{
+    font-size: 14px;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+}
+.main .continer form p{
+    font-size:11px;
+}

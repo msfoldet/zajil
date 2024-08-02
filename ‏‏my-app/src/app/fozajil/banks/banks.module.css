@@ -1,0 +1,33 @@
+.continer{
+   width: 100%;
+   padding: 4rem 2rem;
+    background-image: url('../../../../public/background-track.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+
+    
+    height: 100vh;
+    gap: 20px;
+}
+
+.continer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.continer div button{
+    background-color: #f0c128;
+    height: 30px;
+    border: none;
+    width: 70px;
+    
+}
+
+.continer div button:hover{
+    background-color: #cea625;
+
+}
