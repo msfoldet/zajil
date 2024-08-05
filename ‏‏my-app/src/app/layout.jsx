@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir='rtl'>
       <link rel="icon" href="../../public/icon.svg" />
-      <meta property="og:image" content="https://zajil-express-mu.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage1.c162e9a7.png&w=828&q=75" />
+      <meta property="og:image" content="https://zajil-pay-self.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage1.c162e9a7.png&w=750&q=75" />
       <body className={tajawal.className}>
       <Navbar/>
       {/* <NumTrack.Provider value={{NTrack,SetNtrack}}> */}
